@@ -1,4 +1,7 @@
 from twilio.rest import Client
+import time
+import schedule
+from Webscraping import run_all_pages, dog_info
 
 # Your Account SID from twilio.com/console
 account_sid = ""
@@ -14,3 +17,24 @@ message = client.messages.create(
     media_url= "https://pet-uploads.adoptapet.com/0/3/4/499566700.jpg") 
 
 print(message.sid)
+
+def main(zip="", age="", breedID="", color="", distance="", size="", 
+            sex="", species = "dog"): 
+    return None
+
+
+old_dog_list=run_all_pages(zip, age, breedID, color, distance, size, sex, species)
+while True: 
+    new_dog_list=run_all_pages(zip, age, breedID, color, distance, size, sex, species)
+    old=old_dog_list.set()
+    new=new_dog_list.set()
+    overlap=new.difference(old)
+    if len(overlap) !=0: 
+        for elem in overlap: 
+            message,image=dog_info(elem)
+
+
+
+    #execute function 
+    schedule.run_pending()
+    time.sleep(3600)
