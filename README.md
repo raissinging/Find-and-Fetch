@@ -2,8 +2,6 @@
 
 ![](https://i.imgur.com/kcyLXH5.jpg)
 
-Check out our demo video: https://youtu.be/b23csbxZpZ8
-
 Being our first Hackathon, we wanted to build a project that could solve a social issue that we are all passionate about. Being pet owners, we are all too conscious of the problem of pet abandonment. Roughly 6.5 million pets enter shelters every year in America but only 3.2 million are taken home. A huge reason for this is because there’s not a reliable way for people to find the perfect pet for themselves.
 
 Find and Fetch is a website that helps loving people find and fetch lovely pets. We ask people a series of questions to narrow down on their search and provide them with all the matches based on their preferences through our slick front end interface that we designed using Figma and implemented with HTML, CSS, and Flask. In our backend, we used Beautiful Soup to search the internet for potential fits and Python to tie everything together. We smartly filter based on the preferences that the user gives us, so each match is a perfect fit. If they can’t find the perfect friend, we have a service via Twilio that allows the user to input their phone number, and our algorithm will check everyday if there is any new match available and send you information via sms on them once we find it.
