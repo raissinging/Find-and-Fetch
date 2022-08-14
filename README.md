@@ -13,7 +13,7 @@ Find and Fetch is a website that helps loving people find and fetch lovely pets.
 
 With Find and Fetch, pets up for adoption will not go unnoticed anymore. Together we can take the first step towards ensuring that each and every pet has a warm and loving home to return to!
 
-We want to show our progress throughout this hackathon. For the first couple hours we worked on the backend to get Twilo working and the functionality to search the web for pets up for adoption in non-profit shelters. Next we created a simple frontend design as a proof of concept and to double check if our backend was working correctly. Finally, we did a more detailed design in figma and implemented it using Flask, HTML, and CSS. 
+Below is a diagram that shows our progress throughout this hackathon. For the first couple hours we worked on the backend to get Twilo working and the functionality to search the web for pets up for adoption in non-profit shelters. Next we created a simple frontend design as a proof of concept and to double check if our backend was working correctly. Finally, we did a more detailed design in figma and implemented it using Flask, HTML, and CSS. 
 
 ![](https://i.imgur.com/MokevQ9.jpg)
 
