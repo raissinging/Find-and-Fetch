@@ -12,4 +12,3 @@ We want to show our progress throughout this hackathon. For the first couple hou
 
 ![](https://i.imgur.com/MokevQ9.jpg)
 
-![](https://youtu.be/b23csbxZpZ8)
