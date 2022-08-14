@@ -1,4 +1,4 @@
-# Find and Fetch: AbracadabraHacks 2 + Snack and Hackers 2
+# Find and Fetch: AbracadabraHacks 2 + Snakes and Hackers 2
 
 ![](https://i.imgur.com/kcyLXH5.jpg)
 
