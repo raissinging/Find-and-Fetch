@@ -1,7 +1,8 @@
-# Find and Fetch: AbracadabraHacks 2
+# Find and Fetch: AbracadabraHacks 2 + Snack and Hackers 2
 
 ![](https://i.imgur.com/kcyLXH5.jpg)
 
+https://devpost.com/software/find-and-fetch-o682im
 https://devpost.com/software/find-and-fetch
 
 Being our first Hackathon, we wanted to build a project that could solve a social issue that we are all passionate about. Being pet owners, we are all too conscious of the problem of pet abandonment. Roughly 6.5 million pets enter shelters every year in America but only 3.2 million are taken home. A huge reason for this is because there’s not a reliable way for people to find the perfect pet for themselves.
