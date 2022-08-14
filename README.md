@@ -17,7 +17,7 @@ Below is a diagram that shows our progress throughout this hackathon. For the fi
 
 ![](https://i.imgur.com/DcJZ1Un.jpeg)
 
-Finally here is a link to our Figam design to show our design process: 
+Finally here is a link to our Figma design to show our design process: 
 
 https://www.figma.com/file/NwSO38lk8GKVTeiivngCWy/Find%26Fetch?node-id=0%3A1
 
