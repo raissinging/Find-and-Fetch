@@ -12,15 +12,6 @@ client = Client(account_sid, auth_token)
 
 TEXT_ENABLE=False
 
-# message = client.messages.create(
-#     to="", 
-#     from_="",
-#     body="Hi friend! My name is Gunner & Amora. I am a Cane Corso currently living at Poochmatch shelter in the city ofSanta Ana, CA. If you want to learn more about me and maybe take me home please visit this link: https://petsmartcharities.org/adopt-a-pet/find-a-pet/results/29213407",
-#     media_url= "https://pet-uploads.adoptapet.com/0/3/4/499566700.jpg") 
-
-# print(message.sid)
-
-
 def main(toNum, old_dog_list, fromNum = "#", zipcode="", age="", breedID="", color="", distance="", size="", 
             sex="", species = "dog"): 
 
