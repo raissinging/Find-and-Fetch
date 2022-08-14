@@ -1,4 +1,4 @@
-# Find and Fetch: 
+# Find and Fetch
 
 ## AbracadabraHacks 2 + Snakes and Hackers 2
 
