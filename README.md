@@ -4,9 +4,6 @@
 
 ![](https://i.imgur.com/kcyLXH5.jpg)
 
-https://devpost.com/software/find-and-fetch-o682im,
-https://devpost.com/software/find-and-fetch
-
 https://www.figma.com/file/NwSO38lk8GKVTeiivngCWy/Find%26Fetch?node-id=0%3A1
 
 Being our first Hackathon, we wanted to build a project that could solve a social issue that we are all passionate about. Being pet owners, we are all too conscious of the problem of pet abandonment. Roughly 6.5 million pets enter shelters every year in America but only 3.2 million are taken home. A huge reason for this is because there’s not a reliable way for people to find the perfect pet for themselves.
@@ -19,3 +16,5 @@ Below is a diagram that shows our progress throughout this hackathon. For the fi
 
 ![](https://i.imgur.com/DcJZ1Un.jpeg)
 
+https://devpost.com/software/find-and-fetch-o682im,
+https://devpost.com/software/find-and-fetch
