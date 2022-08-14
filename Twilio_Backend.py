@@ -10,31 +10,47 @@ auth_token  = ""
 
 client = Client(account_sid, auth_token)
 
-message = client.messages.create(
-    to="", 
-    from_="",
-    body="Hi friend! My name is Gunner & Amora. I am a Cane Corso currently living at Poochmatch shelter in the city ofSanta Ana, CA. If you want to learn more about me and maybe take me home please visit this link: https://petsmartcharities.org/adopt-a-pet/find-a-pet/results/29213407",
-    media_url= "https://pet-uploads.adoptapet.com/0/3/4/499566700.jpg") 
+TEXT_ENABLE=False
 
-print(message.sid)
+# message = client.messages.create(
+#     to="", 
+#     from_="",
+#     body="Hi friend! My name is Gunner & Amora. I am a Cane Corso currently living at Poochmatch shelter in the city ofSanta Ana, CA. If you want to learn more about me and maybe take me home please visit this link: https://petsmartcharities.org/adopt-a-pet/find-a-pet/results/29213407",
+#     media_url= "https://pet-uploads.adoptapet.com/0/3/4/499566700.jpg") 
 
-def main(zip="", age="", breedID="", color="", distance="", size="", 
+# print(message.sid)
+
+
+def main(toNum, old_dog_list, fromNum = "#", zipcode="", age="", breedID="", color="", distance="", size="", 
             sex="", species = "dog"): 
-    return None
+
+    #old_dog_list=run_all_pages(zipcode, age, breedID, color, distance, size, sex, species)
+
+    if TEXT_ENABLE == True: 
+        message=client.messages.create(
+                        to=toNum, 
+                        from_=fromNum,
+                        body='Hello from Find and Fetch. Thank you for taking the first step to adopting your furry friend. We will send you a message if we find a new potential fit based on your criteria. Reply "STOP" to stop receiving updates.')
+        while True: 
+            new_dog_list=run_all_pages(zipcode, age, breedID, color, distance, size, sex, species)
+            old=old_dog_list.set()
+            new=new_dog_list.set()
+            overlap=new.difference(old)
+            if len(overlap) !=0: 
+                for elem in overlap: 
+                    messagebody,image=dog_info(elem)
+                    message = client.messages.create(
+                        to=toNum, 
+                        from_=fromNum,
+                        body=messagebody,
+                        media_url= image) 
+                    print(message.sid)
+                    
+            schedule.run_pending()
+            time.sleep(86400)
 
 
-old_dog_list=run_all_pages(zip, age, breedID, color, distance, size, sex, species)
-while True: 
-    new_dog_list=run_all_pages(zip, age, breedID, color, distance, size, sex, species)
-    old=old_dog_list.set()
-    new=new_dog_list.set()
-    overlap=new.difference(old)
-    if len(overlap) !=0: 
-        for elem in overlap: 
-            message,image=dog_info(elem)
+# main()
 
 
 
-    #execute function 
-    schedule.run_pending()
-    time.sleep(3600)

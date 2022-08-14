@@ -1,0 +1,15 @@
+try:
+    from flask import Flask
+except:
+    print("could not import Flask from flask")
+
+from config import Config
+import os
+import sys 
+sys.path.append("..")
+
+app = Flask( __name__, static_url_path='')
+app.config.from_object(Config)
+
+#from routes import *
+from app import routes 

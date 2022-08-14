@@ -1,0 +1,460 @@
+<html>
+    <head>
+        <title>Find and Fetch</title>
+        <link rel="stylesheet" href="static/css/styles.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" </head>
+    </head>
+    <body>
+     <img src="../static/logo.png" style="position: absolute; width: 393px; height: 162px left: 120px; top: 11px;">   
+    <p style="  position: absolute;
+    width: 512px;
+    height: 156px;
+    left: 20px;
+    top:50px;
+ 
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 82px;
+    /* or 114% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Black */
+    
+    color: #000000; ">Find and fetch a furry friend!</h1>
+    
+    <h2 style="position: absolute;
+    width: 440px;
+    height: 30px;
+    left: 20px;
+    top: 280px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+    
+    color: #646464;">We help loving people find lovely pets</h2>
+    <br><br><br><br><br>
+    
+    <div style="margin-top:250px; margin-left:10px; font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px";>
+
+        <form class=test method=post>
+        
+        <label for="zipcode_chosen">Zipcode</label>
+        <input type=text name=zipcode_chosen id=zipcode_chosen>
+        <br>
+        <label for="phone_chosen">Phone</label>
+        <input type=text name=phone_chosen id=phone_chosen>
+        <br>
+        <label for="age_chosen">Age:</label>
+      <select id="age_chosen" name="age_chosen">
+        <option value="Any">Any</option>
+          <option value="Puppy">Puppy</option>
+        <option value="Young">Young</option>
+        <option value="Adult">Adult</option>
+        <option value="Senior">Senior</option>
+      </select>
+      <br>
+      <label for="sex_chosen">Sex:</label>
+      <select id="sex_chosen" name="sex_chosen">
+        <option value="Any">Any</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <br>
+
+
+
+      <label for="breed_chosen">Breed:</label>
+      <select id="breed_chosen" name="breed_chosen">
+            <option value="Any">Any</option>
+            <option value="‘Gentle Giants'">‘Gentle Giants'</option>
+            <option value=" 'Mutt-Madness Surprise Mix!'"> 'Mutt-Madness Surprise Mix!'</option>
+            <option value=" 'Mini Mutts (Mucho Love!)'"> 'Mini Mutts (Mucho Love!)'</option>
+            <option value=" 'Mid-Sized Mutts'"> 'Mid-Sized Mutts'</option>
+            <option value=" 'Big Mutt-hatten Sky Scrapers'"> 'Big Mutt-hatten Sky Scrapers'</option>
+            <option value=" "Barrymore's Buddies""> "Barrymore's Buddies"</option>
+            <option value=" "Taco Bell Dog's Little Amigos""> "Taco Bell Dog's Little Amigos"</option>
+            <option value=" "Eddie & Frasier's Friends!""> "Eddie & Frasier's Friends!"</option>
+            <option value=" 'Affenpinscher'"> 'Affenpinscher'</option>
+            <option value=" 'Afghan Hound'"> 'Afghan Hound'</option>
+            <option value=" "Ain't Nothin' but a Hound Dog!""> "Ain't Nothin' but a Hound Dog!"</option>
+            <option value=" 'Airedale Terrier'"> 'Airedale Terrier'</option>
+            <option value=" 'Akbash'"> 'Akbash'</option>
+            <option value=" 'Akita'"> 'Akita'</option>
+            <option value=" 'Alaskan Malamute'"> 'Alaskan Malamute'</option>
+            <option value=" 'Almost a Horse'"> 'Almost a Horse'</option>
+            <option value=" 'American Bulldog'"> 'American Bulldog'</option>
+            <option value=" 'American Eskimo Dog'"> 'American Eskimo Dog'</option>
+            <option value=" 'American Hairless Terrier'"> 'American Hairless Terrier'</option>
+            <option value=" 'American Pit Bull Terrier'"> 'American Pit Bull Terrier'</option>
+            <option value=" 'American Staffordshire Terrier'"> 'American Staffordshire Terrier'</option>
+            <option value=" 'American Water Spaniel'"> 'American Water Spaniel'</option>
+            <option value=" 'Anatolian Shepherd'"> 'Anatolian Shepherd'</option>
+            <option value=" 'Australian Cattle Dog'"> 'Australian Cattle Dog'</option>
+            <option value=" 'Australian Kelpie'"> 'Australian Kelpie'</option>
+            <option value=" 'Australian Shepherd'"> 'Australian Shepherd'</option>
+            <option value=" 'Australian Terrier'"> 'Australian Terrier'</option>
+            <option value=" 'Basenji'"> 'Basenji'</option>
+            <option value=" 'Basset Griffon Vendeen'"> 'Basset Griffon Vendeen'</option>
+            <option value=" 'Basset Hound'"> 'Basset Hound'</option>
+            <option value=" 'Beagle'"> 'Beagle'</option>
+            <option value=" 'Bearded Collie'"> 'Bearded Collie'</option>
+            <option value=" 'Beauceron'"> 'Beauceron'</option>
+            <option value=" 'Bedlington Terrier'"> 'Bedlington Terrier'</option>
+            <option value=" 'Belgian Laekenois'"> 'Belgian Laekenois'</option>
+            <option value=" 'Belgian Malinois'"> 'Belgian Malinois'</option>
+            <option value=" 'Belgian Shepherd'"> 'Belgian Shepherd'</option>
+            <option value=" 'Belgian Tervuren'"> 'Belgian Tervuren'</option>
+            <option value=" 'Bernese Mountain Dog'"> 'Bernese Mountain Dog'</option>
+            <option value=" 'Bichon Frise'"> 'Bichon Frise'</option>
+            <option value=" 'Black Mouth Cur'"> 'Black Mouth Cur'</option>
+            <option value=" 'Black and Tan Coonhound'"> 'Black and Tan Coonhound'</option>
+            <option value=" 'Bloodhound'"> 'Bloodhound'</option>
+            <option value=" 'Blue Heeler'"> 'Blue Heeler'</option>
+            <option value=" 'Blue Lacy/Texas Lacy'"> 'Blue Lacy/Texas Lacy'</option>
+            <option value=" 'Bluetick Coonhound'"> 'Bluetick Coonhound'</option>
+            <option value=" 'Bobtail'"> 'Bobtail'</option>
+            <option value=" 'Bolognese'"> 'Bolognese'</option>
+            <option value=" 'Border Collie'"> 'Border Collie'</option>
+            <option value=" 'Border Terrier'"> 'Border Terrier'</option>
+            <option value=" 'Borzoi'"> 'Borzoi'</option>
+            <option value=" 'Boston Terrier'"> 'Boston Terrier'</option>
+            <option value=" 'Bouvier des Flandres'"> 'Bouvier des Flandres'</option>
+            <option value=" 'Boxer'"> 'Boxer'</option>
+            <option value=" 'Boykin Spaniel'"> 'Boykin Spaniel'</option>
+            <option value=" 'Briard'"> 'Briard'</option>
+            <option value=" 'Brittany'"> 'Brittany'</option>
+            <option value=" 'Brussels Griffon'"> 'Brussels Griffon'</option>
+            <option value=" 'Bull Terrier'"> 'Bull Terrier'</option>
+            <option value=" 'Bulldog'"> 'Bulldog'</option>
+            <option value=" 'Bullmastiff'"> 'Bullmastiff'</option>
+            <option value=" 'Cairn Terrier'"> 'Cairn Terrier'</option>
+            <option value=" 'Canaan Dog'"> 'Canaan Dog'</option>
+            <option value=" 'Canary Dog'"> 'Canary Dog'</option>
+            <option value=" 'Cane Corso'"> 'Cane Corso'</option>
+            <option value=" 'Cardigan Welsh Corgi'"> 'Cardigan Welsh Corgi'</option>
+            <option value=" 'Carolina Dog'"> 'Carolina Dog'</option>
+            <option value=" 'Carry-On Size Cuties'"> 'Carry-On Size Cuties'</option>
+            <option value=" 'Catahoula Leopard Dog'"> 'Catahoula Leopard Dog'</option>
+            <option value=" 'Cattle Dog'"> 'Cattle Dog'</option>
+            <option value=" 'Cavalier King Charles Spaniel'"> 'Cavalier King Charles Spaniel'</option>
+            <option value=" 'Chesapeake Bay Retriever'"> 'Chesapeake Bay Retriever'</option>
+            <option value=" 'Chihuahua'"> 'Chihuahua'</option>
+            <option value=" 'Chinese Crested'"> 'Chinese Crested'</option>
+            <option value=" 'Chinook'"> 'Chinook'</option>
+            <option value=" 'Chow Chow'"> 'Chow Chow'</option>
+            <option value=" 'Clumber Spaniel'"> 'Clumber Spaniel'</option>
+            <option value=" 'Cockapoo'"> 'Cockapoo'</option>
+            <option value=" 'Cocker Spaniel'"> 'Cocker Spaniel'</option>
+            <option value=" 'Collie'"> 'Collie'</option>
+            <option value=" 'Coonhound'"> 'Coonhound'</option>
+            <option value=" 'Coonhounds (All Types)'"> 'Coonhounds (All Types)'</option>
+            <option value=" 'Corgi'"> 'Corgi'</option>
+            <option value=" 'Coton de Tulear'"> 'Coton de Tulear'</option>
+            <option value=" 'Curly-Coated Retriever'"> 'Curly-Coated Retriever'</option>
+            <option value=" 'Cute Canine Crosses'"> 'Cute Canine Crosses'</option>
+            <option value=" 'Dachshund'"> 'Dachshund'</option>
+            <option value=" 'Dalmatian'"> 'Dalmatian'</option>
+            <option value=" 'Dandie Dinmont Terrier'"> 'Dandie Dinmont Terrier'</option>
+            <option value=" 'Deerhound'"> 'Deerhound'</option>
+            <option value=" 'Doberman Pinscher'"> 'Doberman Pinscher'</option>
+            <option value=" 'Dogo Argentino'"> 'Dogo Argentino'</option>
+            <option value=" 'Dogue de Bordeaux'"> 'Dogue de Bordeaux'</option>
+            <option value=" 'Dutch Shepherd'"> 'Dutch Shepherd'</option>
+            <option value=" 'English (Redtick) Coonhound'"> 'English (Redtick) Coonhound'</option>
+            <option value=" 'English Bulldog'"> 'English Bulldog'</option>
+            <option value=" 'English Mastiff'"> 'English Mastiff'</option>
+            <option value=" 'English Pointer'"> 'English Pointer'</option>
+            <option value=" 'English Setter'"> 'English Setter'</option>
+            <option value=" 'English Sheepdog'"> 'English Sheepdog'</option>
+            <option value=" 'English Shepherd'"> 'English Shepherd'</option>
+            <option value=" 'English Springer Spaniel'"> 'English Springer Spaniel'</option>
+            <option value=" 'English Toy Spaniel'"> 'English Toy Spaniel'</option>
+            <option value=" 'Entlebucher'"> 'Entlebucher'</option>
+            <option value=" 'Eskimo Dog'"> 'Eskimo Dog'</option>
+            <option value=" 'Eskimo Spitz'"> 'Eskimo Spitz'</option>
+            <option value=" 'Fantastic Fidos'"> 'Fantastic Fidos'</option>
+            <option value=" 'Feist'"> 'Feist'</option>
+            <option value=" 'Field Spaniel'"> 'Field Spaniel'</option>
+            <option value=" 'Fila Brasileiro'"> 'Fila Brasileiro'</option>
+            <option value=" 'Finnish Lapphund'"> 'Finnish Lapphund'</option>
+            <option value=" 'Finnish Spitz'"> 'Finnish Spitz'</option>
+            <option value=" 'Flat-Coated Retriever'"> 'Flat-Coated Retriever'</option>
+            <option value=" 'Fox Terrier (Smooth)'"> 'Fox Terrier (Smooth)'</option>
+            <option value=" 'Fox Terrier (Toy)'"> 'Fox Terrier (Toy)'</option>
+            <option value=" 'Fox Terrier (Wirehaired)'"> 'Fox Terrier (Wirehaired)'</option>
+            <option value=" 'Fox Terriers (All Types)'"> 'Fox Terriers (All Types)'</option>
+            <option value=" 'Foxhound'"> 'Foxhound'</option>
+            <option value=" 'French Bulldog'"> 'French Bulldog'</option>
+            <option value=" 'French Mastiff'"> 'French Mastiff'</option>
+            <option value=" 'Funny-Faced Breeds'"> 'Funny-Faced Breeds'</option>
+            <option value=" 'German Pinscher'"> 'German Pinscher'</option>
+            <option value=" 'German Shepherd Dog'"> 'German Shepherd Dog'</option>
+            <option value=" 'German Shorthaired Pointer'"> 'German Shorthaired Pointer'</option>
+            <option value=" 'German Wirehaired Pointer'"> 'German Wirehaired Pointer'</option>
+            <option value=" 'Giant Schnauzer'"> 'Giant Schnauzer'</option>
+            <option value=" 'Glen of Imaal Terrier'"> 'Glen of Imaal Terrier'</option>
+            <option value=" 'Go Fetch! Retrievers!'"> 'Go Fetch! Retrievers!'</option>
+            <option value=" 'Golden Retriever'"> 'Golden Retriever'</option>
+            <option value=" 'Goldendoodle'"> 'Goldendoodle'</option>
+            <option value=" 'Gordon Setter'"> 'Gordon Setter'</option>
+            <option value=" 'Great Dane'"> 'Great Dane'</option>
+            <option value=" 'Great Pyrenees'"> 'Great Pyrenees'</option>
+            <option value=" 'Greater Swiss Mountain Dog'"> 'Greater Swiss Mountain Dog'</option>
+            <option value=" 'Greyhound'"> 'Greyhound'</option>
+            <option value=" 'Halden Hound (Haldenstrover)'"> 'Halden Hound (Haldenstrover)'</option>
+            <option value=" 'Harrier'"> 'Harrier'</option>
+            <option value=" 'Havanese'"> 'Havanese'</option>
+            <option value=" 'Hounds (All Types)'"> 'Hounds (All Types)'</option>
+            <option value=" 'Hounds (Scent Hounds)'"> 'Hounds (Scent Hounds)'</option>
+            <option value=" 'Hounds (Sight Hounds)'"> 'Hounds (Sight Hounds)'</option>
+            <option value=" 'Hovawart'"> 'Hovawart'</option>
+            <option value=" 'Hungarian Puli'"> 'Hungarian Puli'</option>
+            <option value=" 'Hungarian Water Dog'"> 'Hungarian Water Dog'</option>
+            <option value=" 'Husky'"> 'Husky'</option>
+            <option value=" 'Ibizan Hound'"> 'Ibizan Hound'</option>
+            <option value=" 'Irish Setter'"> 'Irish Setter'</option>
+            <option value=" 'Irish Terrier'"> 'Irish Terrier'</option>
+            <option value=" 'Irish Water Spaniel'"> 'Irish Water Spaniel'</option>
+            <option value=" 'Irish Wolfhound'"> 'Irish Wolfhound'</option>
+            <option value=" 'Italian Greyhound'"> 'Italian Greyhound'</option>
+            <option value=" 'Italian Spinone'"> 'Italian Spinone'</option>
+            <option value=" 'Jack Russell Terrier'"> 'Jack Russell Terrier'</option>
+            <option value=" 'Japanese Chin'"> 'Japanese Chin'</option>
+            <option value=" 'Jindo'"> 'Jindo'</option>
+            <option value=" 'Just Right (Not too big or small)'"> 'Just Right (Not too big or small)'</option>
+            <option value=" 'Kai Dog'"> 'Kai Dog'</option>
+            <option value=" 'Karelian Bear Dog'"> 'Karelian Bear Dog'</option>
+            <option value=" 'Keeshond'"> 'Keeshond'</option>
+            <option value=" 'Kerry Blue Terrier'"> 'Kerry Blue Terrier'</option>
+            <option value=" 'King Charles Spaniel'"> 'King Charles Spaniel'</option>
+            <option value=" 'Kishu'"> 'Kishu'</option>
+            <option value=" 'Komondor'"> 'Komondor'</option>
+            <option value=" 'Kuvasz'"> 'Kuvasz'</option>
+            <option value=" 'Kyi Leo'"> 'Kyi Leo'</option>
+            <option value=" 'Labradoodle'"> 'Labradoodle'</option>
+            <option value=" 'Labrador Retriever'"> 'Labrador Retriever'</option>
+            <option value=" 'Lakeland Terrier'"> 'Lakeland Terrier'</option>
+            <option value=" 'Lancashire Heeler'"> 'Lancashire Heeler'</option>
+            <option value=" '"Lassie\'s Friends!"'"> '"Lassie\'s Friends!"'</option>
+            <option value=" 'Leonberger'"> 'Leonberger'</option>
+            <option value=" 'Lhasa Apso'"> 'Lhasa Apso'</option>
+            <option value=" 'Little Fluffy Powder-Puffs of Love'"> 'Little Fluffy Powder-Puffs of Love'</option>
+            <option value=" 'Little Lovers'"> 'Little Lovers'</option>
+            <option value=" 'Löwchen'"> 'Löwchen'</option>
+            <option value=" 'Maltese'"> 'Maltese'</option>
+            <option value=" 'Manchester Terrier'"> 'Manchester Terrier'</option>
+            <option value=" 'Maremma Sheepdog'"> 'Maremma Sheepdog'</option>
+            <option value=" 'Marvelous Mixes'"> 'Marvelous Mixes'</option>
+            <option value=" 'Mastiff'"> 'Mastiff'</option>
+            <option value=" 'Mastiffs (All Types)'"> 'Mastiffs (All Types)'</option>
+            <option value=" 'Mexican Hairless'"> 'Mexican Hairless'</option>
+            <option value=" 'Miniature Pinscher'"> 'Miniature Pinscher'</option>
+            <option value=" 'Miniature Poodle'"> 'Miniature Poodle'</option>
+            <option value=" 'Miniature Schnauzer'"> 'Miniature Schnauzer'</option>
+            <option value=" 'Mountain Cur'"> 'Mountain Cur'</option>
+            <option value=" 'Munsterlander'"> 'Munsterlander'</option>
+            <option value=" "Muscle-Bound Momma's Boys (& Girls!)""> "Muscle-Bound Momma's Boys (& Girls!)"</option>
+            <option value=" 'Muttchkins'"> 'Muttchkins'</option>
+            <option value=" "Mutts are Great"> "Mutts are Great</option>
+            <option value=" Don't Discriminate!""> Don't Discriminate!"</option>
+            <option value=" 'Neapolitan Mastiff'"> 'Neapolitan Mastiff'</option>
+            <option value=" 'Newfoundland'"> 'Newfoundland'</option>
+            <option value=" 'Norfolk Terrier'"> 'Norfolk Terrier'</option>
+            <option value=" 'Norwegian Buhund'"> 'Norwegian Buhund'</option>
+            <option value=" 'Norwegian Elkhound'"> 'Norwegian Elkhound'</option>
+            <option value=" 'Norwich Terrier'"> 'Norwich Terrier'</option>
+            <option value=" 'Nova Scotia Duck-Tolling Retriever'"> 'Nova Scotia Duck-Tolling Retriever'</option>
+            <option value=" 'Old English Sheepdog'"> 'Old English Sheepdog'</option>
+            <option value=" 'Otterhound'"> 'Otterhound'</option>
+            <option value=" 'Papillon'"> 'Papillon'</option>
+            <option value=" 'Parson Russell Terrier'"> 'Parson Russell Terrier'</option>
+            <option value=" 'Patterdale Terrier (Fell Terrier)'"> 'Patterdale Terrier (Fell Terrier)'</option>
+            <option value=" 'Pekingese'"> 'Pekingese'</option>
+            <option value=" 'Pembroke Welsh Corgi'"> 'Pembroke Welsh Corgi'</option>
+            <option value=" 'Petit Basset Griffon Vendeen'"> 'Petit Basset Griffon Vendeen'</option>
+            <option value=" 'Pharaoh Hound'"> 'Pharaoh Hound'</option>
+            <option value=" 'Pit Bull Terrier'"> 'Pit Bull Terrier'</option>
+            <option value=" 'Plott Hound'"> 'Plott Hound'</option>
+            <option value=" 'Podengo Portugueso'"> 'Podengo Portugueso'</option>
+            <option value=" 'Pointer'"> 'Pointer'</option>
+            <option value=" 'Polish Lowland Sheepdog'"> 'Polish Lowland Sheepdog'</option>
+            <option value=" 'Pomeranian'"> 'Pomeranian'</option>
+            <option value=" 'Poochy Pals'"> 'Poochy Pals'</option>
+            <option value=" 'Poodle (Miniature)'"> 'Poodle (Miniature)'</option>
+            <option value=" 'Poodle (Standard)'"> 'Poodle (Standard)'</option>
+            <option value=" 'Poodle (Toy or Tea Cup)'"> 'Poodle (Toy or Tea Cup)'</option>
+            <option value=" 'Poodles (All Types)'"> 'Poodles (All Types)'</option>
+            <option value=" 'Portuguese Water Dog'"> 'Portuguese Water Dog'</option>
+            <option value=" 'Presa Canario'"> 'Presa Canario'</option>
+            <option value=" 'Pug'"> 'Pug'</option>
+            <option value=" 'Puli'"> 'Puli'</option>
+            <option value=" 'Pumi'"> 'Pumi'</option>
+            <option value=" 'Pup-pourri'"> 'Pup-pourri'</option>
+            <option value=" 'Rat Terrier'"> 'Rat Terrier'</option>
+            <option value=" 'Redbone Coonhound'"> 'Redbone Coonhound'</option>
+            <option value=" 'Redtick Coonhound'"> 'Redtick Coonhound'</option>
+            <option value=" 'Retrievers (All Types)'"> 'Retrievers (All Types)'</option>
+            <option value=" 'Rhodesian Ridgeback'"> 'Rhodesian Ridgeback'</option>
+            <option value=" 'Rottweiler'"> 'Rottweiler'</option>
+            <option value=" 'Russian Wolfhound'"> 'Russian Wolfhound'</option>
+            <option value=" 'Saluki'"> 'Saluki'</option>
+            <option value=" 'Samoyed'"> 'Samoyed'</option>
+            <option value=" 'Schiller Hound'"> 'Schiller Hound'</option>
+            <option value=" 'Schipperke'"> 'Schipperke'</option>
+            <option value=" 'Schnauzer (Giant)'"> 'Schnauzer (Giant)'</option>
+            <option value=" 'Schnauzer (Miniature)'"> 'Schnauzer (Miniature)'</option>
+            <option value=" 'Schnauzer (Standard)'"> 'Schnauzer (Standard)'</option>
+            <option value=" 'Schnauzers (All Types)'"> 'Schnauzers (All Types)'</option>
+            <option value=" 'Scottie"> 'Scottie</option>
+            <option value=" Scottish Terrier'"> Scottish Terrier'</option>
+            <option value=" 'Scottish Deerhound'"> 'Scottish Deerhound'</option>
+            <option value=" 'Sealyham Terrier'"> 'Sealyham Terrier'</option>
+            <option value=" 'Setters (All Types)'"> 'Setters (All Types)'</option>
+            <option value=" 'Shar Pei'"> 'Shar Pei'</option>
+            <option value=" 'Sheep & Herding Dogs'"> 'Sheep & Herding Dogs'</option>
+            <option value=" 'Sheltie"> 'Sheltie</option>
+            <option value=" Shetland Sheepdog'"> Shetland Sheepdog'</option>
+            <option value=" 'Shepherds (All Types)'"> 'Shepherds (All Types)'</option>
+            <option value=" 'Shiba Inu'"> 'Shiba Inu'</option>
+            <option value=" 'Shih Tzu'"> 'Shih Tzu'</option>
+            <option value=" 'Siberian Husky'"> 'Siberian Husky'</option>
+            <option value=" 'Silky Terrier'"> 'Silky Terrier'</option>
+            <option value=" 'Skye Terrier'"> 'Skye Terrier'</option>
+            <option value=" 'Sloughi'"> 'Sloughi'</option>
+            <option value=" 'Smooth Fox Terrier'"> 'Smooth Fox Terrier'</option>
+            <option value=" 'Snow Dogs (Husky/Fluffy Types)'"> 'Snow Dogs (Husky/Fluffy Types)'</option>
+            <option value=" 'Spaniels (All Types)'"> 'Spaniels (All Types)'</option>
+            <option value=" 'Spaniels (Medium)'"> 'Spaniels (Medium)'</option>
+            <option value=" 'Spaniels (Small)'"> 'Spaniels (Small)'</option>
+            <option value=" 'Spitz Types (Large)'"> 'Spitz Types (Large)'</option>
+            <option value=" 'Spitz Types (Medium)'"> 'Spitz Types (Medium)'</option>
+            <option value=" 'Spitz Types (Small)'"> 'Spitz Types (Small)'</option>
+            <option value=" 'Springer Spaniel'"> 'Springer Spaniel'</option>
+            <option value=" 'St. Bernard'"> 'St. Bernard'</option>
+            <option value=" 'Staffordshire Bull Terrier'"> 'Staffordshire Bull Terrier'</option>
+            <option value=" 'Standard Poodle'"> 'Standard Poodle'</option>
+            <option value=" 'Standard Schnauzer'"> 'Standard Schnauzer'</option>
+            <option value=" 'Strong but Sweet'"> 'Strong but Sweet'</option>
+            <option value=" 'Super-Sized Sweeties'"> 'Super-Sized Sweeties'</option>
+            <option value=" 'Sussex Spaniel'"> 'Sussex Spaniel'</option>
+            <option value=" 'Swedish Vallhund'"> 'Swedish Vallhund'</option>
+            <option value=" 'Tea Cup Poodle'"> 'Tea Cup Poodle'</option>
+            <option value=" 'Terriers (Medium)'"> 'Terriers (Medium)'</option>
+            <option value=" 'Terriers (Small)'"> 'Terriers (Small)'</option>
+            <option value=" 'Thai Ridgeback'"> 'Thai Ridgeback'</option>
+            <option value=" 'Tibetan Mastiff'"> 'Tibetan Mastiff'</option>
+            <option value=" 'Tibetan Spaniel'"> 'Tibetan Spaniel'</option>
+            <option value=" 'Tibetan Terrier'"> 'Tibetan Terrier'</option>
+            <option value=" 'Tons of Love'"> 'Tons of Love'</option>
+            <option value=" 'Tosa Inu'"> 'Tosa Inu'</option>
+            <option value=" "Toto's Little pals from Oz!""> "Toto's Little pals from Oz!"</option>
+            <option value=" 'Tough & Tender'"> 'Tough & Tender'</option>
+            <option value=" 'Toy Fox Terrier'"> 'Toy Fox Terrier'</option>
+            <option value=" 'Toy Poodle'"> 'Toy Poodle'</option>
+            <option value=" 'Treeing Walker Coonhound'"> 'Treeing Walker Coonhound'</option>
+            <option value=" 'Vizsla'"> 'Vizsla'</option>
+            <option value=" 'Weimaraner'"> 'Weimaraner'</option>
+            <option value=" 'Welsh Corgi'"> 'Welsh Corgi'</option>
+            <option value=" 'Welsh Springer Spaniel'"> 'Welsh Springer Spaniel'</option>
+            <option value=" 'Welsh Terrier'"> 'Welsh Terrier'</option>
+            <option value=" 'Westie"> 'Westie</option>
+            <option value=" West Highland White Terrier'"> West Highland White Terrier'</option>
+            <option value=" 'Wheaten Terrier'"> 'Wheaten Terrier'</option>
+            <option value=" 'Whippet'"> 'Whippet'</option>
+            <option value=" 'Wirehaired Fox Terrier'"> 'Wirehaired Fox Terrier'</option>
+            <option value=" 'Wirehaired Pointing Griffon'"> 'Wirehaired Pointing Griffon'</option>
+            <option value=" 'Xoloitzcuintle/Mexican Hairless'"> 'Xoloitzcuintle/Mexican Hairless'</option>
+            <option value=" 'Yorkie"> 'Yorkie</option>
+            <option value=" Yorkshire Terrier'"> Yorkshire Terrier'</option>
+            <option value=" '31 Flavors Mixes'"> '31 Flavors Mixes'</option>
+            <option value=""></option>
+      </select>
+      <br>
+    <label for="color_chosen">Color:</label>
+    <select id="color_chosen" name="color_chosen">
+            <option value="Any">Any</option>
+            <option value="'Black'">'Black'</option>
+            <option value=" 'Brindle'"> 'Brindle'</option>
+            <option value=" 'Brown'"> 'Brown'</option>
+            <option value=" 'Chocolate'"> 'Chocolate'</option>
+            <option value=" 'Gray'"> 'Gray'</option>
+            <option value=" 'Blue'"> 'Blue'</option>
+            <option value=" 'Silver'"> 'Silver'</option>
+            <option value=" 'Salt & Pepper'"> 'Salt & Pepper'</option>
+            <option value=" 'Merle'"> 'Merle'</option>
+            <option value=" 'Red'"> 'Red'</option>
+            <option value=" 'Golden'"> 'Golden'</option>
+            <option value=" 'Orange'"> 'Orange'</option>
+            <option value=" 'Chestnut'"> 'Chestnut'</option>
+            <option value=" 'Silver & Tan'"> 'Silver & Tan'</option>
+            <option value=" 'Tan'"> 'Tan'</option>
+            <option value=" 'Yellow'"> 'Yellow'</option>
+            <option value=" 'Fawn'"> 'Fawn'</option>
+            <option value=" 'Tricolor'"> 'Tricolor'</option>
+            <option value=" 'White'"> 'White'</option>
+            </select>
+    </select>
+<br>
+    <label for="size_chosen">Size:</label>
+    <select id="size_chosen" name="size_chosen">
+    <option value="Any">Any</option>
+    <option value="Small">Small</option>    
+    <option value="Medium">Medium</option>
+    <option value="Large">Large</option>
+    <option value="X-Large">X-Large</option>
+    </select>
+    <br>
+    <label for="distance_chosen">Distance:</label>
+    <select id="distance_chosen" name="distance_chosen">
+    <option value="Any">Any</option>
+    <option value="35">35 miles</option> 
+    <option value="50">50 miles</option>
+    <option value="75">75 miles</option>
+    <option value="100">100 miles</option>
+    <option value="250">250 miles</option>
+    </select>
+    <br>
+    <br>
+   
+    <input type=submit value=Submit style="background: #F86135;;
+    background-image: -webkit-linear-gradient(top, #F86135;, #F86135;);
+    background-image: -moz-linear-gradient(top, #F86135;, #F86135;);
+    background-image: -ms-linear-gradient(top, #F86135;, #F86135;);
+    background-image: -o-linear-gradient(top, #F86135;, #F86135;);
+    background-image: linear-gradient(to bottom, #F86135;, #F86135;);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-family: 'Poppins';
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;"/>
+    </form>
+    
+</div>
+<img src="../static/page1-pic.png" style="position: absolute;
+width: 637px;
+height: 599px;
+left: 553px;
+top: 61px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+</body>
+</html>
+
